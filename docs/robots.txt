@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://kenichdietrich.github.io/sitemap.xml
