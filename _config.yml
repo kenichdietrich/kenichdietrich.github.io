@@ -8,7 +8,7 @@ name: kenichdietrich
 description: >- # this means to ignore newlines until "baseurl:"
   AI
 keywords: [AI]
-baseurl: '/' # the subpath of your site, e.g. /`blog
+baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://kenichdietrich.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'kenichdietrich.github.io' # the domain name for your site, e.g. example.com
 language: en

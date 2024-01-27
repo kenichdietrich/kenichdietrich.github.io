@@ -2,6 +2,7 @@
 
 .post-title {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .post-content {
@@ -9,8 +10,19 @@
   overflow-x: scroll;
 }
 
+.post-content a {
+  color: #3152b5;
+  font-family: $serif-font-family !important;
+}
+
+.post-content a:hover {
+  color: #000000;
+}
+
 .post-content p {
   line-height: 20px;
+  text-align: justify;
+  font-family: $serif-font-family !important;
 }
 
 .post-content img {
@@ -21,6 +33,11 @@
 .post-info {
   line-height: 24px;
   margin: 10px 0;
+  font-family: $serif-font-family !important;
+}
+
+.post-info * {
+  font-family: $serif-font-family !important;
 }
 
 .post-category,

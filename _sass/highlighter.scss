@@ -1,19 +1,25 @@
 @charset "utf-8";
 
-.highlight > pre,
+.highlight>pre,
 pre.highlight {
-  line-height: 18px;
-  margin: 10px 0;
-  padding-left: 3px;
-  border: 1px solid #ccc;
+  line-height: 1.4;
+  margin: 1rem 0;
+  padding: .25em .5em;
+  //border: 1px solid #ccc;
   overflow-x: auto;
-  font-size: 14px;
   text-indent: 0px;
-  background-color: #eee;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  background-color: $code-background-color;
+  border-radius: 3px;
+  //box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .highlighter-rouge {
-  font-size: 14px;
-  background-color: #eee;
+  font-size: .8rem;
+  font-family: $code-font-family !important;
+  background-color: $code-background-color;
+  border-radius: 3px;
+}
+
+.highlighter-rouge * {
+  font-family: $code-font-family !important;
 }
