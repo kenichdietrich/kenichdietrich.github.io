@@ -12,7 +12,11 @@ $sans-serif-font-family: "Quattrocento Sans", sans-serif;
 $serif-font-family: "Crimson Pro", "PT Serif", Georgia, "Times New Roman", serif;
 $code-font-family: "JetBrains Mono", "Source Code Pro", monospace;
 
-$code-background-color:   #f5f5f5;
+$code-background-color:   #e0c9a6;
+
+$light-color:   #f3dfc1;
+$medium-color:   #b1a086;
+$dark-color: #645948;
 
 @import 'reset', 'container', 'float', 'header', 'footer', 'page', 'post-list',
   'post', 'highlighter', 'mobile', 'printer', 'task-list', 'mermaid';

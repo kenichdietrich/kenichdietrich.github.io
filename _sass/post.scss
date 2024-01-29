@@ -11,12 +11,12 @@
 }
 
 .post-content a {
-  color: #3152b5;
+  color: $dark-color;
   font-family: $serif-font-family !important;
 }
 
 .post-content a:hover {
-  color: #000000;
+  color: #000;
 }
 
 .post-content p {
