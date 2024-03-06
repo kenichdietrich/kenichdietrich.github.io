@@ -12,11 +12,11 @@ $sans-serif-font-family: "Quattrocento Sans", sans-serif;
 $serif-font-family: "Crimson Pro", "PT Serif", Georgia, "Times New Roman", serif;
 $code-font-family: "JetBrains Mono", "Source Code Pro", monospace;
 
-$code-background-color:   #e4d6c0;
+$code-background-color:   #e4e1d5;
 
-$light-color:   #f2e5d0;
-$medium-color:   #aea495;
-$dark-color: #645948;
+$light-color:   #eeece3;
+$medium-color:   #aca792;
+$dark-color: #716b56;
 
 @import 'reset', 'container', 'float', 'header', 'footer', 'page', 'post-list',
   'post', 'highlighter', 'mobile', 'printer', 'task-list', 'mermaid';
